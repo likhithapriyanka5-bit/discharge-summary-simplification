@@ -1,0 +1,26 @@
+Patient,Condition,Model,Temperature,FK Grade,ROUGE-L,Fact Recall
+4490,S1: No Anchoring (baseline),llama-3.3-70b-versatile,0.0,13.88,0.103,0.229
+4490,S2: Anchoring Only,llama-3.3-70b-versatile,0.0,19.78,0.122,0.467
+4490,"S3: Full System (70b, t=0)",llama-3.3-70b-versatile,0.0,7.62,0.147,0.39
+4490,"S4: Full System (8b, t=0)",llama-3.1-8b-instant,0.0,7.13,0.109,0.305
+4490,"S5: Full System (70b, t=0.3)",llama-3.3-70b-versatile,0.3,7.36,1.0,1.0
+8217,S1: No Anchoring (baseline),llama-3.3-70b-versatile,0.0,6.2,0.111,0.224
+8217,S2: Anchoring Only,llama-3.3-70b-versatile,0.0,8.09,0.125,0.286
+8217,"S3: Full System (70b, t=0)",llama-3.3-70b-versatile,0.0,7.15,0.944,1.0
+8217,"S4: Full System (8b, t=0)",llama-3.1-8b-instant,0.0,8.39,0.194,0.449
+8217,"S5: Full System (70b, t=0.3)",llama-3.3-70b-versatile,0.3,7.87,0.889,0.918
+3553,S1: No Anchoring (baseline),llama-3.3-70b-versatile,0.0,9.86,0.194,0.286
+3553,S2: Anchoring Only,llama-3.3-70b-versatile,0.0,16.64,0.484,0.905
+3553,"S3: Full System (70b, t=0)",llama-3.3-70b-versatile,0.0,8.07,0.387,0.905
+3553,"S4: Full System (8b, t=0)",llama-3.1-8b-instant,0.0,9.47,0.968,1.0
+3553,"S5: Full System (70b, t=0.3)",llama-3.3-70b-versatile,0.3,7.67,0.452,0.857
+3426,S1: No Anchoring (baseline),llama-3.3-70b-versatile,0.0,13.1,0.096,0.222
+3426,S2: Anchoring Only,llama-3.3-70b-versatile,0.0,19.53,0.132,0.354
+3426,"S3: Full System (70b, t=0)",llama-3.3-70b-versatile,0.0,6.56,0.118,0.323
+3426,"S4: Full System (8b, t=0)",llama-3.1-8b-instant,0.0,8.92,0.11,0.273
+3426,"S5: Full System (70b, t=0.3)",llama-3.3-70b-versatile,0.3,7.24,0.118,0.384
+8741,S1: No Anchoring (baseline),llama-3.3-70b-versatile,0.0,20.78,0.13,0.509
+8741,S2: Anchoring Only,llama-3.3-70b-versatile,0.0,27.42,0.182,0.582
+8741,"S3: Full System (70b, t=0)",llama-3.3-70b-versatile,0.0,6.32,0.831,0.909
+8741,"S4: Full System (8b, t=0)",llama-3.1-8b-instant,0.0,8.43,0.221,0.582
+8741,"S5: Full System (70b, t=0.3)",llama-3.3-70b-versatile,0.3,9.1,0.961,0.945
